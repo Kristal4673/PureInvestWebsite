@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PureInvestWebsite.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Index.css" />
+
 </head>
 <body>
     <header>
@@ -35,25 +37,9 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-
-            <!-- Product Purchase Section -->
-            <section class="product-section">
-                <h2>Featured Product</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="/Image/vase.png" class="img-fluid" alt="Rose Gold Vase" />
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Rose Gold Vase</h3>
-                        <p>Elevate your home decor with our stunning Rose Gold Vase. It is crafted with the finest materials and exquisite craftsmanship, making it a perfect centerpiece for any room.</p>
-                        <p>Price: $49.99</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </section>
         </main>
     </div>
-    cd
+
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - PureInvestWebsite - <a asp-area="" asp-page="/Privacy">Privacy</a>

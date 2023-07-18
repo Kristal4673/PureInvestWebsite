@@ -1,10 +1,29 @@
 ﻿@page
-@model IndexModel
+@model PureInvestWebsite.Pages.IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+
+<h1>Welcome to PureInvestWebsite!</h1>
+
+<p>Thank you for visiting our website. We offer a beautiful Rose Gold Vase for your home decor needs.</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/Image/vase.png" class="img-fluid" alt="Rose Gold Vase" />
+    </div>
+    <div class="col-md-6">
+        <h2>Rose Gold Vase</h2>
+        <p>
+            🌹 Introducing PureInvest: 🥇🌟 The First Rose Gold Product 🌟🥇 designed specifically to elegantly display a dozen roses of any kind. 💐✨💖 Our modern, squared vases are not only affordable but also versatile, effortlessly complementing any section of your household. They are perfect for creating stunning centerpieces at weddings too! 💒🎉💐 Each PureInvest vase set includes a beautiful glass holder and a durable iron outer holder, ensuring both elegance and stability for your precious roses. 🌺🔒💎 ✨ Elevate your floral arrangements with PureInvest and experience the following benefits: ✨ 🏠 Transform any corner of your home into a stylish oasis with our sleek design. 💍 Make your wedding day even more memorable with exquisite rose gold centerpieces. 💰 Enjoy affordability without compromising on quality and style. 🌷 Accommodate any type of rose with our perfectly-sized vases. 🌟 Unleash your creativity and let your roses shine with PureInvest! 🌟✨ Best hashtags to use: #PureInvest #RoseGoldMagic #StylishFloralDecor #AffordableElegance #VersatileVases #WeddingCenterpieces #FlowerPower #RoseLovers #FloralArrangements #HomeDecorIdeas #ElevateYourSpace
+        </p>
+        <p>Price: $49.99</p>
+        <a href="../Pages/AddToCart.cshtml" class="btn btn-primary">Buy Now</a>
+    </div>
 </div>
